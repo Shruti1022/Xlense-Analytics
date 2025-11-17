@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://api.visitiq.me/api',
+  baseURL: 'https://api.visitiq.me/api',
   timeout: 10000,
 });
 
