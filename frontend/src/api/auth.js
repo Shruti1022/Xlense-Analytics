@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://api.visitiq.me/api';
+const API_BASE_URL = 'https://api.visitiq.me/api';
 
 export const loginUser = async (email, password) => {
   const response = await fetch(`${API_BASE_URL}/auth/login`, {
